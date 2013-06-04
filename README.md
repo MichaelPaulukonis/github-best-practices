@@ -1,5 +1,6 @@
 adapted from https://github.com/skyscreamer/yoga/wiki/GitHub-Best-Practices
 
+which in turn may have pulled from https://help.github.com/articles/fork-a-repo
 
 
 Here are some suggested practices for how to contribute to a project.
