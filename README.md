@@ -1,15 +1,15 @@
-adapted from [[https://github.com/skyscreamer/yoga/wiki/GitHub-Best-Practices]]
+adapted from https://github.com/skyscreamer/yoga/wiki/GitHub-Best-Practices
 
 
 
 Here are some suggested practices for how to contribute to a project.
 
 ## A. Set Up
-Make sure you have an account on github: [[http://help.github.com/mac-set-up-git/]] or [[http://help.github.com/win-set-up-git/]]
+Make sure you have an account on github: http://help.github.com/mac-set-up-git/ or http://help.github.com/win-set-up-git/
 
 ## B. Create your own fork
 Go to the project home and click on the fork button to create your own fork.
-[[http://help.github.com/images/bootcamp/bootcamp_3_fork.jpg]]
+http://help.github.com/images/bootcamp/bootcamp_3_fork.jpg
 
 ## C. Clone the fork locally
     % git clone git@github.com:<username>/<reponame>.git
@@ -47,7 +47,7 @@ If you know changes have been made to the primary code base, or if a pull reques
 
 First create a "remote" to the primary (aka upstream) code repository.  You only need to do this once ever.  You're basically defining an alias that can be reused across checkouts:
 
-    % git remote add upstream git://github.com/skyscreamer/yoga.git
+    % git remote add upstream git://github.com/<username>/<reponame>.git
 
 Retrieve and merge updates:
 
@@ -66,14 +66,14 @@ Go to your fork on the web site (e.g. http://github.com/<username>/<reponame>), 
 
 You should then be able to add a descriptive comment about what is in this merge, and submit the pull request.  A project admin can then apply the merge to the primary code repository.
 
-You can read more about pull requests here: [[http://help.github.com/pull-requests/]]
+You can read more about pull requests here: http://help.github.com/pull-requests/
 
 ## E. Rinse and repeat
 
 ## More Reading
 
-A helpful guide to previewing submitted pull requests is here: [[http://beust.com/weblog/2010/09/15/a-quick-guide-to-pull-requests/]]
+A helpful guide to previewing submitted pull requests is here: http://beust.com/weblog/2010/09/15/a-quick-guide-to-pull-requests/
 
-For more reading, check out the excellent Pro Git book online, especially the Public Small Project section in chapter 5.2: [[http://progit.org/book/ch5-2.html]].  Also check out github's "Fork a Repo" help page: [[http://help.github.com/fork-a-repo/]]
+For more reading, check out the excellent Pro Git book online, especially the Public Small Project section in chapter 5.2: http://progit.org/book/ch5-2.html.  Also check out github's "Fork a Repo" help page: http://help.github.com/fork-a-repo/
 
 mvn jetty:run-war
