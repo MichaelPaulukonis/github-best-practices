@@ -62,7 +62,7 @@ If you cloned from another source than your fork, you can create a remote to you
 
 ### 6. Submit a pull request
 
-Go to your fork on the web site (e.g. http://github.com/<username>/<reponame>), and click on the "Pull Request" button on the top.  Under the base branch you should see **skyscreamer/yoga @ master** and under the head branch **_username_/yoga @ master**.  Replace "master" in the head branch with the name of your new branch (e.g. my_descriptive_branch_name).  Press enter, and click the "Update Commit Range" at the bottom.
+Go to your fork on the web site (e.g. http://github.com/<username>/<reponame>), and click on the "Pull Request" button on the top.  Under the base branch you should see **<username>/<reponame> @ master** and under the head branch **_<username>_/<reponame> @ master**.  Replace "master" in the head branch with the name of your new branch (e.g. my_descriptive_branch_name).  Press enter, and click the "Update Commit Range" at the bottom.
 
 You should then be able to add a descriptive comment about what is in this merge, and submit the pull request.  A project admin can then apply the merge to the primary code repository.
 
